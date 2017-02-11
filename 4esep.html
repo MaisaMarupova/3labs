@@ -1,0 +1,24 @@
+<html >
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <script>
+  var arr = [12,-1,44,29,35,-2],
+      fMax;
+  function getMax(arr) {
+    var arrLen = arr.length,
+        maxEl = arr[0];
+    for (var i = 0; i < arrLen; i++) {
+      if (maxEl < arr[i]) {
+        maxEl = arr[i];
+      }
+    }
+    return maxEl;
+  }
+  fMax = getMax(arr);
+  console.log(fMax); 
+  document.write(" е? ?лкен сан = " + fMax);
+  </script>
+</body>
+</html>
